@@ -11,6 +11,7 @@ img_path = args['image']
 
 #Reading the image with opencv
 img = cv2.imread(img_path)
+img = cv2.resize(img,(700,700))
 
 #declaring global variables for later use
 clicked = False
